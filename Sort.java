@@ -6,6 +6,7 @@ public class Sort{
       array[i] = Integer.parseInt(args[i]);
     }
     Arrays.sort(array);
-    System.out.println(array);
+    System.out.println(Arrays.toString(array));
+    System.out.println("I am changes");
   }
 }
